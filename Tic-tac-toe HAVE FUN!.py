@@ -230,4 +230,4 @@ tic_tac_toe_have_fun()
 
 
 # for exit after game is done with press any key
-input('press any key for exit')
+exit_z = input('press any key for exit')
