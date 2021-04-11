@@ -151,11 +151,17 @@ def draw_analyz(game_board):
     return a and b and c
 
 
+# instead of clear_output function from IPython.display
+# i just make a similar version of it for more compatibility
+def clear_output():
+    print('\n'*100)
+
+
 # just have fun
 def tic_tac_toe_have_fun():
 
     # import clear_output for clearing out every game round
-    from IPython.display import clear_output
+    # from IPython.display import clear_output
 
     # Welcome message
     print('\nHello Welcome to Two-player Tic-tac-toe game.\n')
